@@ -1,0 +1,129 @@
+* {
+box-sizing: content-box;
+}
+
+.header_container {
+    background: hsla(186, 33%, 94%, 1);
+    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 550px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: #acbfdb;
+    color: #343434;
+}
+
+body {
+  margin: 10px 8px 8px 0;
+  padding: 25px 5px 25px 5px;
+  background-color: whitesmoke;
+  font-family: "Inter", sans-serif;
+}
+
+.color_input {
+  width: 12%;
+  height: 50%;
+  border: none;
+  background-color: rgb(138, 138, 138);
+}
+
+#color-scheme {
+  width: 56%;
+  height: 42%;
+  border: 2px solid #ababab;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  padding: 1px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.scheme_Btn {
+  margin: 0 0.7rem;
+  width: 19.8%;
+  height: 42%;
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  border-color: #d1d5db;
+  border-style: solid;
+  border-width: 2px;
+  cursor: pointer;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 550px;
+  height: 90px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+}
+
+.colors_container {
+  margin: 0 auto;
+  width: 550px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 400px 60px;
+  background-color: #ffffff
+}
+
+.color1 {
+  background-color: #f55a5a;
+}
+
+.color2 {
+  background-color: #2b283a;
+}
+
+.color3 {
+  background-color: #fbf3ab;
+}
+
+.color4 {
+  background-color: #aad1b6;
+}
+
+.color5 {
+  background-color: #a626d3;
+}
+
+.hex_value1,
+.hex_value2,
+.hex_value3,
+.hex_value4,
+.hex_value5 {
+  box-sizing: border-box;
+  background-color: #d3deec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #acbfdb;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.hex_value1:hover,
+.hex_value2:hover,
+.hex_value3:hover,
+.hex_value4:hover,
+.hex_value5:hover {
+  background-color: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.scheme_Btn:hover {
+  background-color: #101010;
+  transform: scale(1.05);
+}
